@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Instruction</title>
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat.">
+</head>
+
+<body>
+	<div class="page">
+		<section id="main" class="intro">
+			<div class="container">
+				<header class="header">
+					<div class="logo">
+						<picture>
+							<source class="bg_media" srcset="img/logo.webp" type="image/webp">
+							<img class="bg_media" src="img/logo.jpg" alt="">
+						</picture>
+					</div>
+					<nav class="nav">
+						<a class="nav__link" href="#" data-scroll="#main">Главная</a>
+						<a class="nav__link" href="#" data-scroll="#about">О школе</a>
+						<a class="nav__link" href="#" data-scroll="#teachers">Преподаватели</a>
+						<a class="nav__link" href="#" data-scroll="#courses">Наши курсе</a>
+						<a class="nav__link" href="#" data-scroll="#contact">Контакты</a>
+					</nav>
+					<span class="burger">
+						<span></span>
+					</span>
+				</header>
+				<nav class="burger_nav">
+					<a class="nav__link" href="#" data-scroll="#main">Главная</a>
+					<a class="nav__link" href="#" data-scroll="#about">О школе</a>
+					<a class="nav__link" href="#" data-scroll="#teachers">Преподаватели</a>
+					<a class="nav__link" href="#" data-scroll="#courses">Наши курсе</a>
+					<a class="nav__link" href="#" data-scroll="#contact">Контакты</a>
+					<div class="social_nav">
+						<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+						</svg>
+						<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24"><path class="youtube_icon" d="M26.9179 5.98121C26.9377 6.24433 26.9377 6.50595 26.9377 6.76757C26.9377 14.7741 20.7506 24 9.44331 24C5.9597 24 2.72339 23.0061 0 21.28C0.494606 21.3357 0.970894 21.3552 1.48534 21.3552C4.25299 21.3618 6.94226 20.4503 9.11968 18.7676C7.83649 18.7447 6.59257 18.3277 5.56163 17.5748C4.53068 16.822 3.76417 15.7708 3.36912 14.5681C3.74924 14.6237 4.13088 14.6613 4.53084 14.6613C5.08193 14.6613 5.63607 14.5861 6.15052 14.4553C4.75793 14.1784 3.50571 13.4349 2.60679 12.3514C1.70786 11.2678 1.21773 9.91101 1.21972 8.51172V8.43654C2.03949 8.8861 2.99054 9.16727 3.99807 9.20486C3.15401 8.65243 2.46192 7.9028 1.98352 7.02287C1.50513 6.14293 1.25531 5.16004 1.25636 4.16188C1.25636 3.03721 1.56015 2.00576 2.09292 1.10663C3.63801 2.9786 5.56509 4.51005 7.74934 5.60179C9.9336 6.69353 12.3263 7.32121 14.7725 7.44418C14.6779 6.99311 14.6199 6.5255 14.6199 6.05638C14.6195 5.26094 14.7783 4.47321 15.0871 3.73824C15.396 3.00327 15.8489 2.33546 16.42 1.77299C16.9911 1.21053 17.6691 0.764432 18.4153 0.460211C19.1615 0.155989 19.9613 -0.000394506 20.7689 7.4737e-07C22.5397 7.4737e-07 24.138 0.730736 25.2616 1.91254C26.6382 1.65035 27.9583 1.15538 29.1634 0.449568C28.7046 1.84912 27.7434 3.03587 26.4599 3.7875C27.6808 3.65034 28.8741 3.3341 30 2.84927C29.1591 4.05678 28.117 5.11567 26.9179 5.98121V5.98121Z"></path>
+						</svg>
+						<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M13 0C5.82068 0 0 5.85582 0 13.0785C0 19.6053 4.75328 25.0151 10.9692 26V16.8598H7.66687V13.0785H10.9692V10.197C10.9692 6.91659 12.9103 5.10766 15.8785 5.10766C17.3008 5.10766 18.7908 5.36271 18.7908 5.36271V8.57903H17.1474C15.5353 8.57903 15.0308 9.58879 15.0308 10.6234V13.0759H18.6335L18.0575 16.8572H15.0308V25.9974C21.2467 25.0177 26 19.6066 26 13.0785C26 5.85582 20.1793 0 13 0V0Z"></path>
+						</svg>
+						<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28"><path d="M26.913 7.98245C26.8979 6.84689 26.6853 5.72262 26.2848 4.65993C25.9375 3.76356 25.407 2.94949 24.7273 2.26974C24.0475 1.58999 23.2334 1.05951 22.3371 0.712184C21.288 0.318394 20.1798 0.105465 19.0595 0.0824635C17.6172 0.0179921 17.1599 0 13.4985 0C9.83713 0 9.36784 1.00538e-07 7.93597 0.0824635C6.81621 0.105634 5.70849 0.318561 4.65993 0.712184C3.76341 1.05926 2.94922 1.58966 2.26944 2.26944C1.58966 2.94922 1.05926 3.76342 0.712183 4.65993C0.317605 5.70816 0.105138 6.81614 0.0839627 7.93597C0.0194913 9.37983 0 9.83713 0 13.4985C0 17.1599 -1.11709e-08 17.6277 0.0839627 19.061C0.106453 20.1825 0.317859 21.289 0.712183 22.3401C1.05985 23.2363 1.59064 24.0502 2.27064 24.7297C2.95065 25.4092 3.76492 25.9393 4.66143 26.2863C5.70711 26.6959 6.81503 26.9241 7.93747 26.961C9.38133 27.0255 9.83863 27.045 13.5 27.045C17.1614 27.045 17.6307 27.045 19.0625 26.961C20.1828 26.939 21.2911 26.7265 22.3401 26.3328C23.2362 25.9851 24.0501 25.4545 24.7298 24.7748C25.4095 24.0951 25.9401 23.2812 26.2878 22.3851C26.6821 21.3355 26.8935 20.229 26.916 19.106C26.9805 17.6637 27 17.2064 27 13.5435C26.997 9.88211 26.997 9.41732 26.913 7.98245V7.98245ZM13.4895 20.4224C9.66021 20.4224 6.55808 17.3203 6.55808 13.491C6.55808 9.66171 9.66021 6.55959 13.4895 6.55959C15.3278 6.55959 17.0909 7.28986 18.3908 8.58975C19.6907 9.88965 20.4209 11.6527 20.4209 13.491C20.4209 15.3293 19.6907 17.0924 18.3908 18.3923C17.0909 19.6922 15.3278 20.4224 13.4895 20.4224V20.4224ZM20.6968 7.91948C20.4845 7.91968 20.2742 7.87801 20.078 7.79685C19.8819 7.7157 19.7036 7.59665 19.5535 7.44652C19.4034 7.2964 19.2843 7.11814 19.2031 6.92196C19.122 6.72577 19.0803 6.51551 19.0805 6.3032C19.0805 6.09104 19.1223 5.88097 19.2035 5.68496C19.2847 5.48896 19.4037 5.31086 19.5537 5.16085C19.7037 5.01083 19.8818 4.89183 20.0778 4.81064C20.2738 4.72945 20.4839 4.68767 20.6961 4.68767C20.9082 4.68767 21.1183 4.72945 21.3143 4.81064C21.5103 4.89183 21.6884 5.01083 21.8384 5.16085C21.9884 5.31086 22.1074 5.48896 22.1886 5.68496C22.2698 5.88097 22.3116 6.09104 22.3116 6.3032C22.3116 7.1968 21.5889 7.91948 20.6968 7.91948Z"></path>
+						<path d="M13.4895 17.9938C15.9762 17.9938 17.992 15.9779 17.992 13.4913C17.992 11.0046 15.9762 8.98877 13.4895 8.98877C11.0029 8.98877 8.98703 11.0046 8.98703 13.4913C8.98703 15.9779 11.0029 17.9938 13.4895 17.9938Z"></path>
+						</svg>
+					</div>
+				</nav>
+				<div class="main__inner">
+					<div class="main__content">
+						<div class="main__text">
+							<p class="main__title anim">Школа английского языка</p>
+							<p class="main__name anim">instruction</p>
+							<div class="btn anim">
+								<a class="btn__link" href="#">Бесплатный урок</a>
+							</div>
+						</div>
+						<div class="list anim">
+							<p class="main__list">Умная платформа помогает усвоить лексику и грамматику</p>
+							<p class="main__list">Преподаватели со всего мира практикуют с вами английский</p>
+							<p class="main__list">Личный учитель даёт обратную связь и следит за прогрессом</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="about" class="about">	
+			<div class="container">
+				<h2 class="title anim">О школе</h2>
+				<div class="about__text">
+					<p class="about_txt about_txt_1 anim">Мы помогаем разговориться и преодолеть языковой барьер, систематизировать знания, объясняем грамматику простым языком, готовим к экзаменам, путешествиям и собеседованиям. Можем построить персональную программу под узкие запросы.</p>
+					<p class="about_txt about_txt_2 anim">Все занятия проводятся индивидуально, то есть преподаватель вкладывает все свои силы именно в ваше обучение. Вы говорите 70% урока, задания персонализируются под ваши пожелания, преподаватель может уделить особое внимание слабым местам.</p>
+					<p class="about_txt about_txt_3 anim">Преподаватель главная движущая сила вашего прогресса. Поможет, похвалит, проверит. У нас работают только сильные преподаватели из разных городов и стран, для которых английский не только строка в дипломе, но и призвание, любовь и хобби.</p>
+				</div>
+				<div class="statistics">
+					<div class="statistics__inner">
+						<div class="statistics_box statistics_box--pad anim">
+							<p class="statistics_num">265</p>
+							<p class="statistics_text">преподавателей</p>
+						</div>
+						<div class="statistics_box anim">
+							<p class="statistics_num">12000</p>
+							<p class="statistics_text">выпускников</p>
+						</div>
+					</div>
+					<div class="statistics__inner">
+						<div class="statistics_box statistics_box--pad anim">
+							<p class="statistics_num">11</p>
+							<p class="statistics_text">лет работы</p>
+						</div>
+						<div class="statistics_box anim">
+							<p class="statistics_num">32797</p>
+							<p class="statistics_text">проведенных уроков</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="teachers" class="teachers">	
+			<div class="container">
+				<h2 class="title anim">Преподаватели</h2>
+				<img class="marks_right" src="img/icon/marks.svg" alt="">
+				<div class="teachers_inner anim">
+					<div class="teachers_box">
+						<div class="teacher_avatar">
+							<picture>
+								<source class="teacher_avatar_media" srcset="img/teacher_avatar/1.webp" type="image/webp">
+								<img class="teacher_avatar_media" src="img/teacher_avatar/1.jpg" alt="">
+							</picture>
+						</div>
+						<div class="teachers_content_box">
+							<p class="teacher_name">Марк</p>
+							<p class="teacher_text">Стаж: <span>5 лет</span></p>
+							<div class="arrow">
+								<div></div>
+							</div>
+						</div>
+					</div>
+					<div class="teachers_box">
+						<div class="teacher_avatar">
+							<picture>
+								<source class="teacher_avatar_media" srcset="img/teacher_avatar/2.webp" type="image/webp">
+								<img class="teacher_avatar_media" src="img/teacher_avatar/2.jpg" alt="">
+							</picture>
+						</div>
+						<div class="teachers_content_box">
+							<p class="teacher_name">Василий</p>
+							<p class="teacher_text">Стаж: <span>9 лет</span></p>
+							<div class="arrow">
+								<div></div>
+							</div>
+						</div>
+					</div>
+					<div class="teachers_box">
+						<div class="teacher_avatar">
+							<picture>
+								<source class="teacher_avatar_media" srcset="img/teacher_avatar/3.webp" type="image/webp">
+								<img class="teacher_avatar_media" src="img/teacher_avatar/3.jpg" alt="">
+							</picture>
+						</div>
+						<div class="teachers_content_box">
+							<p class="teacher_name">Ева</p>
+							<p class="teacher_text">Стаж: <span>3 лет</span></p>
+							<div class="arrow">
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img class="marks_left" src="img/icon/marks.svg" alt="">
+				<div class="btn--teachers anim">
+					<a class="btn__link" href="#">Показать еще</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="courses" class="courses">
+			<h2 class="title title--courses">Наши курсы</h2>
+			<div class="container">
+				<div class="courses_inner">
+					<div class="courses_box courses_box--pad anim">
+						<p class="courses_name">Elementary</p>
+						<p class="courses_text">Цель курса помочь вам начать разговаривать на простые темы с иностранцами, научиться задавать вопросы и отвечать на них.</p>
+						<div class="cta">
+							<p class="price">25 600 Р</p>
+							<a class="cta__btn" href="#">купить курс</a>
+						</div>
+					</div>
+					<div class="courses_box anim">
+						<p class="courses_name">Pre-Intermediate</p>
+						<p class="courses_text">Цель курса научить вас поддерживать разговор на знакомые темы с использованием правильной грамматики и большего словарного запаса. Вы станете лучше понимать собеседника.</p>
+						<div class="cta">
+							<p class="price">31 400 Р</p>
+							<a class="cta__btn" href="#">купить курс</a>
+						</div>
+					</div>
+				</div>
+				<div class="courses_inner">
+					<div class="courses_box courses_box--pad anim">
+						<p class="courses_name">Intermediate</p>
+						<p class="courses_text">Цель курса расширить ваши знания в английском, чтобы вы смогли выразить свое мнение, понимали общий смысл речи вашего собеседника, даже если он говорит быстро и использует много незнакомых слов.</p>
+						<div class="cta">
+							<p class="price">50 790 Р</p>
+							<a class="cta__btn" href="#">купить курс</a>
+						</div>
+					</div>
+					<div class="courses_box anim">
+						<p class="courses_name">Upper-Intermediate</p>
+						<p class="courses_text">Цель курса повысить ваш темп речи и увеличить словарный запас, чтобы вы смогли читать или смотреть материалы на английском без словаря, понимая смысл незнакомых слов из контекста.</p>
+						<div class="cta">
+							<p class="price">23 000 Р</p>
+							<a class="cta__btn" href="#">купить курс</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="contact" class="contact">
+			<h2 class="title anim">Контакты</h2>
+			<div class="container">
+				<div class="contact__inner">
+					<div class="contact__content">
+						<p class="contact__title">Написать нам</p>
+						<input class="contact_input" type="name" placeholder="Имя">
+						<input class="contact_input" type="phone" placeholder="Телефон">
+						<input class="contact_input" type="email" placeholder="Email">
+						<textarea class="contact_input" name="text" id="" cols="30" rows="5" style="resize: none" placeholder="Комментарий"></textarea>
+						<div class="contact_privacy">
+							<div class="checkbox">
+								<input class="contact_checkbox" type="checkbox" id="checkbox">
+								<label class="contact_checkbox_lable" for="checkbox">Я согласен с политикой обработки персональных данных</label>
+							</div>
+						</div>
+						<div class="btn btn--contact anim">
+							<a class="btn__link" href="#">Отправить</a>
+						</div>
+					</div>
+					<div class="contact__content anim">
+						<p class="contact__nam">Телефон</p>
+						<a class="contact__text" href="tel:8 (800) 775-47-75">8 (800) 775-47-75</a>
+						<p class="contact__nam">Почта</p>
+						<a class="contact__text"href="#">instruction@gmail.com</a>
+						<p class="contact__nam">Социальные сети</p>
+						<div class="social">
+							<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+							</svg>
+							<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24"><path class="youtube_icon" d="M26.9179 5.98121C26.9377 6.24433 26.9377 6.50595 26.9377 6.76757C26.9377 14.7741 20.7506 24 9.44331 24C5.9597 24 2.72339 23.0061 0 21.28C0.494606 21.3357 0.970894 21.3552 1.48534 21.3552C4.25299 21.3618 6.94226 20.4503 9.11968 18.7676C7.83649 18.7447 6.59257 18.3277 5.56163 17.5748C4.53068 16.822 3.76417 15.7708 3.36912 14.5681C3.74924 14.6237 4.13088 14.6613 4.53084 14.6613C5.08193 14.6613 5.63607 14.5861 6.15052 14.4553C4.75793 14.1784 3.50571 13.4349 2.60679 12.3514C1.70786 11.2678 1.21773 9.91101 1.21972 8.51172V8.43654C2.03949 8.8861 2.99054 9.16727 3.99807 9.20486C3.15401 8.65243 2.46192 7.9028 1.98352 7.02287C1.50513 6.14293 1.25531 5.16004 1.25636 4.16188C1.25636 3.03721 1.56015 2.00576 2.09292 1.10663C3.63801 2.9786 5.56509 4.51005 7.74934 5.60179C9.9336 6.69353 12.3263 7.32121 14.7725 7.44418C14.6779 6.99311 14.6199 6.5255 14.6199 6.05638C14.6195 5.26094 14.7783 4.47321 15.0871 3.73824C15.396 3.00327 15.8489 2.33546 16.42 1.77299C16.9911 1.21053 17.6691 0.764432 18.4153 0.460211C19.1615 0.155989 19.9613 -0.000394506 20.7689 7.4737e-07C22.5397 7.4737e-07 24.138 0.730736 25.2616 1.91254C26.6382 1.65035 27.9583 1.15538 29.1634 0.449568C28.7046 1.84912 27.7434 3.03587 26.4599 3.7875C27.6808 3.65034 28.8741 3.3341 30 2.84927C29.1591 4.05678 28.117 5.11567 26.9179 5.98121V5.98121Z"></path>
+							</svg>
+							<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26"><path d="M13 0C5.82068 0 0 5.85582 0 13.0785C0 19.6053 4.75328 25.0151 10.9692 26V16.8598H7.66687V13.0785H10.9692V10.197C10.9692 6.91659 12.9103 5.10766 15.8785 5.10766C17.3008 5.10766 18.7908 5.36271 18.7908 5.36271V8.57903H17.1474C15.5353 8.57903 15.0308 9.58879 15.0308 10.6234V13.0759H18.6335L18.0575 16.8572H15.0308V25.9974C21.2467 25.0177 26 19.6066 26 13.0785C26 5.85582 20.1793 0 13 0V0Z"></path>
+							</svg>
+							<svg class="social__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28"><path d="M26.913 7.98245C26.8979 6.84689 26.6853 5.72262 26.2848 4.65993C25.9375 3.76356 25.407 2.94949 24.7273 2.26974C24.0475 1.58999 23.2334 1.05951 22.3371 0.712184C21.288 0.318394 20.1798 0.105465 19.0595 0.0824635C17.6172 0.0179921 17.1599 0 13.4985 0C9.83713 0 9.36784 1.00538e-07 7.93597 0.0824635C6.81621 0.105634 5.70849 0.318561 4.65993 0.712184C3.76341 1.05926 2.94922 1.58966 2.26944 2.26944C1.58966 2.94922 1.05926 3.76342 0.712183 4.65993C0.317605 5.70816 0.105138 6.81614 0.0839627 7.93597C0.0194913 9.37983 0 9.83713 0 13.4985C0 17.1599 -1.11709e-08 17.6277 0.0839627 19.061C0.106453 20.1825 0.317859 21.289 0.712183 22.3401C1.05985 23.2363 1.59064 24.0502 2.27064 24.7297C2.95065 25.4092 3.76492 25.9393 4.66143 26.2863C5.70711 26.6959 6.81503 26.9241 7.93747 26.961C9.38133 27.0255 9.83863 27.045 13.5 27.045C17.1614 27.045 17.6307 27.045 19.0625 26.961C20.1828 26.939 21.2911 26.7265 22.3401 26.3328C23.2362 25.9851 24.0501 25.4545 24.7298 24.7748C25.4095 24.0951 25.9401 23.2812 26.2878 22.3851C26.6821 21.3355 26.8935 20.229 26.916 19.106C26.9805 17.6637 27 17.2064 27 13.5435C26.997 9.88211 26.997 9.41732 26.913 7.98245V7.98245ZM13.4895 20.4224C9.66021 20.4224 6.55808 17.3203 6.55808 13.491C6.55808 9.66171 9.66021 6.55959 13.4895 6.55959C15.3278 6.55959 17.0909 7.28986 18.3908 8.58975C19.6907 9.88965 20.4209 11.6527 20.4209 13.491C20.4209 15.3293 19.6907 17.0924 18.3908 18.3923C17.0909 19.6922 15.3278 20.4224 13.4895 20.4224V20.4224ZM20.6968 7.91948C20.4845 7.91968 20.2742 7.87801 20.078 7.79685C19.8819 7.7157 19.7036 7.59665 19.5535 7.44652C19.4034 7.2964 19.2843 7.11814 19.2031 6.92196C19.122 6.72577 19.0803 6.51551 19.0805 6.3032C19.0805 6.09104 19.1223 5.88097 19.2035 5.68496C19.2847 5.48896 19.4037 5.31086 19.5537 5.16085C19.7037 5.01083 19.8818 4.89183 20.0778 4.81064C20.2738 4.72945 20.4839 4.68767 20.6961 4.68767C20.9082 4.68767 21.1183 4.72945 21.3143 4.81064C21.5103 4.89183 21.6884 5.01083 21.8384 5.16085C21.9884 5.31086 22.1074 5.48896 22.1886 5.68496C22.2698 5.88097 22.3116 6.09104 22.3116 6.3032C22.3116 7.1968 21.5889 7.91948 20.6968 7.91948Z"></path>
+							<path d="M13.4895 17.9938C15.9762 17.9938 17.992 15.9779 17.992 13.4913C17.992 11.0046 15.9762 8.98877 13.4895 8.98877C11.0029 8.98877 8.98703 11.0046 8.98703 13.4913C8.98703 15.9779 11.0029 17.9938 13.4895 17.9938Z"></path>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="language">
+					<p class="lang">RU</p>
+					<img class="footer__planet" src="img/icon/planet.svg" alt="">
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="modal">
+		<div class="modal__inner">
+			<p class="modal__text"><span class="modal_marker">Пройди</span> небольшой тест</p>
+			<p class="modal__title">И получи урок <span class="modal_marker">бесплатно</span></p>
+			<div class="question_block">
+				<p class="question">Выберите правильный перевод слова INSTRUCTION</p>
+			</div>
+			<div class="question_answers">
+				<div class="answer">
+					<input class="answer_checkbox" type="radio" name="answer" id="answer_1">
+					<label class="answer_lable" for="answer_1">x</label>
+					<p class="answer_text">Инструкция</p>
+				</div>
+				<div class="answer">
+					<input class="answer_checkbox" type="radio" name="answer" id="answer_2">
+					<label class="answer_lable" for="answer_2"></label>
+					<p class="answer_text">Инструкция</p>
+				</div>
+				<div class="answer">
+					<input class="answer_checkbox" type="radio" name="answer" id="answer_3">
+					<label class="answer_lable" for="answer_3"></label>
+					<p class="answer_text">Инструкция</p>
+				</div>
+				<div class="answer">
+					<input class="answer_checkbox" type="radio" name="answer" id="answer_4">
+					<label class="answer_lable" for="answer_4"></label>
+					<p class="answer_text">Инструкция</p>
+				</div>
+				<div class="next_question">
+					<p class="next_question_text">Следующий вопрос</p>
+					<div class="arrow--modal">
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<span class="close">
+				<span></span>
+			</span>
+			<img class="question_icon_1" src="img/icon/question.svg">
+			<img class="question_icon_2" src="img/icon/question.svg">
+			<img class="lang_question" src="img/icon/lang.svg">
+		</div2>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha512-HaoDYc3PGduguBWOSToNc0AWGHBi2Y432Ssp3wNIdlOzrunCtB2qq6FrhtPbo+PlbvRbyi86dr5VQx61eg/daQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
